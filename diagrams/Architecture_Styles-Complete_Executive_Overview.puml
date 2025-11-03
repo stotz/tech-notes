@@ -1,0 +1,129 @@
+@startmindmap
+!theme plain
+skinparam defaultFontSize 11
+skinparam defaultFontName Arial
+
+title Architecture Styles - Complete Executive Overview
+
+*[#FFD700] System\nArchitecture
+
+left side
+
+**[#87CEEB] Deployment Architecture
+***[#B0E0E6] Foundation Patterns
+****_ Client-Server
+****_ 2-Tier, 3-Tier, N-Tier
+***[#B0E0E6] Monolithic Styles
+****_ Traditional Monolith
+****_ Modular Monolith
+***[#B0E0E6] Modern Distributed
+****_ SOA, Microservices
+****_ Serverless, Container-based
+****_ Edge, Fog Computing
+****_ Hybrid/Multi-Cloud
+***[#B0E0E6] Specialized Patterns
+****_ Peer-to-Peer (P2P)
+****_ Space-Based Architecture
+****_ Primary-Replica, Distributed
+
+**[#DDA0DD] Interaction & Integration
+***[#E6C9E6] Communication Patterns
+****_ Request-Response (Sync)
+****_ Event-Driven (Async)
+****_ Streaming, Polling/Push
+***[#E6C9E6] Coordination
+****_ Orchestration, Choreography
+****_ Pub/Sub, Point-to-Point
+****_ Saga Pattern
+***[#E6C9E6] Integration
+****_ API Gateway, BFF
+****_ Service Mesh, Sidecar
+****_ Message Broker, ESB
+****_ Adapter, Anti-Corruption Layer
+
+**[#F0E68C] Domain & Code
+***[#F5F5A0] Structural Patterns
+****_ Layered Architecture
+****_ Clean, Hexagonal, Onion
+****_ Vertical Slice
+***[#F5F5A0] Domain-Driven Design
+****_ Bounded Contexts
+****_ Aggregates, Entities
+****_ Domain Events, Context Mapping
+***[#F5F5A0] Presentation Patterns
+****_ MVC, MVP, MVVM
+****_ Flux/Redux
+
+**[#98FB98] Data & Analytics
+***[#B4F5B4] Data Strategies
+****_ Shared DB vs. Per Service
+****_ Polyglot Persistence
+****_ Data Lake, Mesh, Warehouse
+****_ Sharding, Replication
+***[#B4F5B4] Data Patterns
+****_ CQRS, Event Sourcing
+****_ Saga, Transactional Outbox
+****_ Change Data Capture (CDC)
+***[#B4F5B4] Analytics
+****_ Batch vs. Stream Processing
+****_ Lambda, Kappa Architecture
+****_ OLTP vs. OLAP
+****_ ETL/ELT Pipelines
+
+right side
+
+**[#FFB6C1] UI & Frontend
+***[#FFD0D8] Rendering Strategies
+****_ SSR, CSR, SSG
+****_ SPA, PWA
+****_ Hydration, ISR
+***[#FFD0D8] Frontend Architecture
+****_ Monolithic Frontend
+****_ Micro-Frontends
+****_ BFF, Module Federation
+***[#FFD0D8] Platform Approaches
+****_ Web, Desktop (Electron)
+****_ Native, Cross-Platform
+****_ Hybrid, Jamstack
+
+**[#87CEFA] Resilience & Performance
+***[#B0D4F1] Resilience Patterns
+****_ Circuit Breaker, Bulkhead
+****_ Retry, Timeout, Backoff
+****_ Rate Limiting, Back Pressure
+****_ Health Checks, Failover
+***[#B0D4F1] Performance Optimization
+****_ Caching (Multi-Level), CDN
+****_ Load Balancing, Compression
+****_ DB Optimization, Connection Pooling
+****_ Lazy Loading, Async Processing
+
+**[#B2DFDB] Cloud-Native & DevOps
+***[#C8E6C9] Infrastructure
+****_ Containers, Orchestration (K8s)
+****_ IaC, Immutable Infrastructure
+****_ Service Discovery
+****_ Config & Secret Management
+***[#C8E6C9] Deployment Strategies
+****_ Blue-Green, Canary
+****_ Rolling, Recreate
+****_ Feature Flags, A/B Testing
+****_ GitOps, Shadow Deployment
+***[#C8E6C9] Observability
+****_ Metrics, Logs, Traces
+****_ APM, Alerting
+****_ Dashboards, SLO/SLA/SLI
+
+**[#FFCDD2] Security & Testing
+***[#FFE0E0] Security Architecture
+****_ Zero Trust, Defense in Depth
+****_ IAM, RBAC/ABAC
+****_ API Security (OAuth2, JWT)
+****_ Encryption, Secrets Management
+***[#E8EAF6] Testing Strategies
+****_ Test Pyramid (Unit, Integration, E2E)
+****_ Contract, Performance Testing
+****_ Chaos Engineering
+****_ Testing in Production
+
+@endmindmap
